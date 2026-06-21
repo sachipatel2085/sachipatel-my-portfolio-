@@ -10,6 +10,7 @@ import Services from "./component/Services";
 import Contact from "./component/Contact";
 import Skills from "./component/Skills";
 import Projects from "./component/Projects";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="Services" element={<Services />} />
         <Route path="Projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

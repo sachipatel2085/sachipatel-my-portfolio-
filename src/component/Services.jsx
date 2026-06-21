@@ -42,7 +42,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-24">
+    <section className="bg-black text-white py-24 border-t border-yellow-500/10">
       {" "}
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Heading */}
