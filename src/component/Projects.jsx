@@ -32,6 +32,15 @@ const Projects = () => {
       live: "https://genuineforevercontainers.com/",
     },
     {
+      title: "Cue Club Coventry",
+      description:
+        "A premium cinematic website redesign for Cue Club Coventry featuring immersive animations, modern UI, responsive layouts, and an engaging luxury experience.",
+      image: "/projects/cueclub.png",
+      tech: ["React", "Tailwind", "Framer Motion", "3D Design"],
+      github: "https://github.com/sachipatel2085/sachipatel-Cueclub.git",
+      live: "https://sachipatel-cueclub.vercel.app/",
+    },
+    {
       title: "Portfolio Website",
       description:
         "Personal portfolio showcasing skills, projects, achievements, and contact information.",
