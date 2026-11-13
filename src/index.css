@@ -1,1 +1,111 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ivory: #F5F3EE;
+  --color-ivory-light: #FAF9F6;
+  --color-ivory-dark: #E8E4DA;
+  --color-charcoal: #20211F;
+  --color-charcoal-light: #2D2E2B;
+  --color-charcoal-deep: #141513;
+  --color-charcoal-card: #282927;
+  --color-olive: #777C62;
+  --color-olive-light: #91967B;
+  --color-olive-dark: #5C604B;
+  --color-orange: #C46B45;
+  --color-orange-hover: #D77A51;
+  --color-orange-dark: #AA5834;
+  --color-orange-subtle: #F3EAE4;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F5F3EE;
+  color: #20211F;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F3EE;
+  color: #20211F;
+  overflow-x: hidden;
+  selection-background-color: #C46B45;
+  selection-color: #FFFFFF;
+}
+
+::selection {
+  background-color: #C46B45;
+  color: #FFFFFF;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F3EE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777C62;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C46B45;
+}
+
+/* Subtle custom animations */
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+/* Editorial line decorations */
+.editorial-grid-bg {
+  background-image: linear-gradient(to right, rgba(119, 124, 98, 0.08) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(119, 124, 98, 0.08) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.editorial-grid-dark {
+  background-image: linear-gradient(to right, rgba(245, 243, 238, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(245, 243, 238, 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
