@@ -34,20 +34,20 @@ const RouteChangeTracker = () => {
 // Route wrapper for dedicated standalone section views
 const DedicatedView = ({ title, subtitle, children }) => {
   return (
-    <div className="pt-24 min-h-screen bg-[#F5F3EE]">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pt-6 pb-4">
-        <div className="pb-4 border-b border-[#777C62]/20 flex items-center justify-between">
+    <div className="pt-20 sm:pt-24 min-h-screen bg-[#F5F3EE]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-4 sm:pt-6 pb-3 sm:pb-4">
+        <div className="pb-3 sm:pb-4 border-b border-[#777C62]/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5 sm:gap-4">
           <div>
-            <span className="font-mono text-xs uppercase tracking-widest text-[#C46B45] font-semibold">
+            <span className="font-mono text-[10px] sm:text-xs uppercase tracking-widest text-[#C46B45] font-semibold">
               STANDALONE VIEW // {subtitle}
             </span>
-            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#20211F]">
+            <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#20211F]">
               {title}
             </h1>
           </div>
           <a
             href="/"
-            className="font-mono text-xs uppercase tracking-wider text-[#777C62] hover:text-[#C46B45] transition-colors"
+            className="font-mono text-xs uppercase tracking-wider text-[#777C62] hover:text-[#C46B45] transition-colors self-start sm:self-auto py-1"
           >
             ← Full Portfolio
           </a>
