@@ -1,0 +1,16 @@
+{
+  "name": "Sachi Patel — Full Stack Developer & MERN Engineer",
+  "short_name": "Sachi Patel",
+  "description": "Portfolio of Sachi Patel — Full Stack Developer specializing in React, Node.js, Express, MongoDB, and modern web architectures.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F3EE",
+  "theme_color": "#F5F3EE",
+  "icons": [
+    {
+      "src": "/profile.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

@@ -250,7 +250,7 @@ const Contact = () => {
           </div>
 
           {/* Right Info Cards (5 cols) */}
-          <div className="lg:col-span-5 space-y-4 sm:space-y-6">
+          <address className="not-italic lg:col-span-5 space-y-4 sm:space-y-6">
             {/* Direct Email Card with One-Click Copy */}
             <div className="p-4 sm:p-6 rounded-xl sm:rounded-2xl bg-[#2D2E2B] border border-[#777C62]/30">
               <div className="flex items-start justify-between gap-3">
@@ -371,7 +371,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </address>
         </div>
       </div>
     </section>

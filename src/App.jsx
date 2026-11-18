@@ -10,6 +10,7 @@ import Experience from "./component/Experience";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import CustomCursor from "./component/CustomCursor";
+import SEO from "./component/SEO";
 
 // Scroll to top on route navigation
 const RouteChangeTracker = () => {
@@ -61,6 +62,7 @@ const DedicatedView = ({ title, subtitle, children }) => {
 function App() {
   return (
     <BrowserRouter>
+      <SEO />
       <CustomCursor />
       <RouteChangeTracker />
       <Navbar />

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage / Primary Portfolio Landing -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/profile.jpg</image:loc>
+      <image:title>Sachi Patel — Full Stack Developer &amp; MERN Engineer</image:title>
+      <image:caption>Sachi Patel portrait — Computer Engineering student and Full Stack Developer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/farm.png</image:loc>
+      <image:title>Farm Advisory System — MERN Agriculture Platform</image:title>
+      <image:caption>Farm Advisory System web application developed by Sachi Patel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/blog.png</image:loc>
+      <image:title>ArticleHub — Full Stack Blog Management Platform</image:title>
+      <image:caption>ArticleHub CMS with JWT authentication engineered by Sachi Patel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/gfc.png</image:loc>
+      <image:title>Genuine Forever Containers — Industrial Product Catalog</image:title>
+      <image:caption>Genuine Forever Containers commercial corporate website</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/cueclub.png</image:loc>
+      <image:title>Cue Club Coventry — Luxury Entertainment Redesign</image:title>
+      <image:caption>Cue Club Coventry UK website redesign by Sachi Patel</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Projects Section Page -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/projects</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/farm.png</image:loc>
+      <image:title>Farm Advisory System Case Study</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/projects/blog.png</image:loc>
+      <image:title>ArticleHub Blog Management Case Study</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Sachi Patel -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/about</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://sachipatel-my-portfolio.vercel.app/profile.jpg</image:loc>
+      <image:title>About Sachi Patel — Computer Engineering GTU</image:title>
+    </image:image>
+  </url>
+
+  <!-- Technical Skills Page -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/skills</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services / What I Do -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/services</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Experience & Education -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/experience</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact & Hire Page -->
+  <url>
+    <loc>https://sachipatel-my-portfolio.vercel.app/contact</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>

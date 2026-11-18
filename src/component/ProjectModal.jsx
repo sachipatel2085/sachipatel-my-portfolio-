@@ -106,7 +106,10 @@ const ProjectModal = ({ project, onClose }) => {
           <div className="relative rounded-lg sm:rounded-xl overflow-hidden border border-[#777C62]/20 bg-[#20211F]/5 shadow-inner">
             <img
               src={project.image}
-              alt={project.title}
+              alt={`${project.title} — ${project.category} case study preview by Sachi Patel`}
+              width="1200"
+              height="750"
+              decoding="async"
               className="w-full h-auto max-h-[360px] sm:max-h-[460px] object-cover object-top"
               loading="lazy"
             />

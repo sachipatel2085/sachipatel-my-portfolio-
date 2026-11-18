@@ -93,14 +93,15 @@ const Hero = () => {
                 PORTFOLIO & SYSTEM ARCHITECTURE
               </span>
 
-              {/* Responsive Fluid Name & Title */}
+              {/* Responsive Fluid Name & Title (Semantic H1 Entity for Google Indexing) */}
               <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-[#20211F] leading-[1.05] break-words">
                 Sachi <span className="italic font-normal text-[#C46B45]">Patel</span>
+                <span className="sr-only"> — Full Stack Developer &amp; MERN Stack Engineer</span>
               </h1>
 
               <div className="pt-1">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-serif text-[#777C62] font-semibold tracking-wide">
-                  Full Stack Developer
+                  Full Stack Developer &amp; MERN Engineer
                 </h2>
               </div>
             </div>
@@ -220,7 +221,11 @@ const Hero = () => {
                 <div className="relative aspect-[4/5] overflow-hidden bg-[#161715]">
                   <img
                     src="/profile.jpg"
-                    alt="Sachi Patel — Full Stack Developer"
+                    alt="Sachi Patel — Full Stack Developer & MERN Engineer in Gujarat, India"
+                    width="1023"
+                    height="1160"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-full object-cover object-top filter contrast-[1.06] group-hover:scale-105 transition-all duration-700 ease-out"
                     loading="eager"
                   />

@@ -88,7 +88,10 @@ const Projects = () => {
                       <div className="aspect-[16/10] overflow-hidden bg-[#20211F]">
                         <img
                           src={project.image}
-                          alt={project.title}
+                          alt={`${project.title} — ${project.category} built by Sachi Patel`}
+                          width="1200"
+                          height="750"
+                          decoding="async"
                           className="w-full h-full object-cover object-top filter contrast-[1.02] group-hover/img:scale-105 transition-transform duration-700 ease-out"
                           loading="lazy"
                         />

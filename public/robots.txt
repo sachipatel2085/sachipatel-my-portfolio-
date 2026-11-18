@@ -1,0 +1,30 @@
+# Robots.txt for https://sachipatel-my-portfolio.vercel.app/
+# Authorized crawlers: Allow all public content
+
+User-agent: *
+Allow: /
+Allow: /profile.jpg
+Allow: /projects/
+Allow: /resumepatelsachikumaranilbhai.pdf
+
+# Disallow non-public internal paths
+Disallow: /api/
+Disallow: /*.json$
+
+# Googlebot specific rules
+User-agent: Googlebot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+
+# Googlebot Image Crawler
+User-agent: Googlebot-Image
+Allow: /profile.jpg
+Allow: /projects/
+
+# XML Sitemap location
+Sitemap: https://sachipatel-my-portfolio.vercel.app/sitemap.xml
+Host: https://sachipatel-my-portfolio.vercel.app
